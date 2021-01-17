@@ -1,0 +1,32 @@
+.social-media {
+  font-size: 25px;
+  cursor: pointer;
+}
+.facebook-icon,
+.twitter-icon,
+.youtube-icon {
+  margin-right: 10px;
+  padding: 7px 9px 10px 9px;
+  border-radius: 5px;
+}
+.facebook-icon {
+  color: white;
+  background-color: #28589c;
+}
+.twitter-icon {
+  color: white;
+  background-color: #1da1f2;
+}
+.youtube-icon {
+  color: white;
+  background-color: #cc181e;
+}
+.headset-icon {
+  font-size: 30px;
+  position: absolute;
+  top: 0.2rem;
+  left: -2.7rem;
+}
+.footer-logo {
+  width: 25rem;
+}

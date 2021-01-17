@@ -1,0 +1,23 @@
+.best-element {
+  /* color: #54595f; */
+  font-size: 59px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.text-dark{
+
+}
+.service-star {
+  font-size: 20px;
+  position: absolute;
+  top: 0.3rem;
+  left: -1.8rem;
+}
+.best-services p {
+  color: #6d6d6d;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 400;
+}

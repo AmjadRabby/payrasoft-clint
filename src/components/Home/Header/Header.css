@@ -1,0 +1,26 @@
+.header-main-text h1 {
+  font-size: 45;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.main-header {
+  height: 600px;
+  /* background-color: hsla(9, 89%, 50%, 0.685); */
+  /* background: tomato; */
+  background: linear-gradient(-10deg,rgba(252, 50, 14, 0.904), rgba(253, 128, 106, 0.623));
+  padding-top: 150px;
+}
+.header-main-text p {
+  /* font-family: Poppins, sans-serif; */
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+h5,
+h1,
+p {
+  color: #f5f5f5;
+}
+.header-img {
+  width: 480px;
+}

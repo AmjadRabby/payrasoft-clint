@@ -1,0 +1,23 @@
+.slider-container {
+}
+.carousel-image {
+  width: 120px;
+  height: 65px;
+}
+.our-clint{
+  /* position: absolute;
+  top: -100px; */
+}
+@media only screen and (min-width: 442px) and (max-width: 582px) {
+  .carousel-image {
+    width: 98%;
+    height: 180px;
+  }
+}
+@media only screen and (min-width: 583px) and (max-width: 1000px) {
+  .carousel-image {
+    width: 90%;
+    height: 180px;
+  }
+}
+

@@ -1,0 +1,51 @@
+.nav-container {
+  /* border-bottom: 1px solid transparent; */
+  background-color: #141d38 !important;
+  color: #b5b5b5;
+  font-size: 14px;
+  font-weight: bold;
+}
+.actives {
+  color: #fff;
+  padding: 6px !important;
+  margin-left: 10px;
+}
+
+.main_navbar {
+  position: absolute !important;
+  margin-left: 100px;
+}
+
+.search-btn {
+  font-size: 2rem;
+}
+
+.logo {
+  width: 250px;
+  margin-right: 100px;
+}
+.navbar-item {
+  margin-right: 10px;
+  font-weight: bold;
+
+  letter-spacing: 1.2px;
+  border-radius: 5px;
+  color: #fff;
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(216, 201, 201, 0) 50%,
+    rgba(229, 229, 229) 50%
+  );
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-item:hover {
+  background-position: -100% 0;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  display: none;
+}
