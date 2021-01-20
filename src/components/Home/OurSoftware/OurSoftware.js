@@ -14,8 +14,8 @@ const OurSoftware = () => {
           <SoftwareInfo key={item.id} software={item} />
         ))}
       </div>
-      <div className="bg-light text-center p-2 mb-5">
-        <h6 className="brand-color "> VIEW OUR ALL SOFTWARE</h6>
+      <div className="bg-light text-center mb-5 ">
+        <h6 className="brand-btn rounded p-2"> VIEW OUR ALL SOFTWARE</h6>
       </div>
     </Container>
   );

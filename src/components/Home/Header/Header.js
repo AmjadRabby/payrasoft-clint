@@ -7,8 +7,8 @@ import MainHeader from "./MainHeader";
 const Header = () => {
   return (
     <div>
-      <Nav />
-      <MainNavbar />
+      {/* <Nav /> */}
+      {/* <MainNavbar /> */}
       <MainHeader />
     </div>
   );

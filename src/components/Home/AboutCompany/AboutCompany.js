@@ -21,14 +21,23 @@ const AboutCompany = () => {
               technology as much as we can. So we want to contribute in our IT
               sector.
             </p>
-            <button className="btn brand-color-bg">READ MORE</button>
+            <button className="btn brand-color-bg mb-5">READ MORE</button>
           </div>
           <div className="col-md-6 d-flex justify-content-center">
-            <img
+            {/* <img
               className="img-fluid about-img global-item p-1"
               src={company}
               alt=""
-            />
+            /> */}
+            <iframe
+            className="rounded mb-5"
+              width="500"
+              height="315"
+              src="https://www.youtube.com/embed/_39W4PIFCXA"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </Container>

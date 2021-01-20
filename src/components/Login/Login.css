@@ -1,0 +1,59 @@
+.login-logo {
+  /* align-items: center; */
+  /* margin: auto !important; */
+}
+.login-form {
+  margin: auto;
+  margin-top: 5rem;
+  width: 50%;
+  /* border: 1px solid lightgray; */
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.login-form input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.login-form h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.signin-btn {
+  text-align: center;
+}
+
+.signin-btn button {
+  margin-top: 1rem;
+  border-radius: 5rem;
+  width: 50%;
+  color: black;
+}
+
+.signin-btn button FacebookIcon {
+  color: blue;
+}
+
+.hr-header {
+  margin-top: -3rem;
+}
+
+.reset-password-btn {
+  border: none;
+  background: none;
+  color: orange;
+}
+.login-icon {
+  font-size: 1.9em;
+  margin-right: 10%;
+  /* padding-left: 10px; */
+}
+.facebook-login-icon {
+  
+}
+.sign-btn:hover{
+ color: black!important;
+}

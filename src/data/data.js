@@ -1,10 +1,17 @@
+import service1 from "../images/icons/service1.png";
+import service2 from "../images/icons/service2.png";
+import service3 from "../images/icons/service3.png";
+import service4 from "../images/icons/service4.png";
+import service5 from "../images/icons/service5.png";
+// import service6 from "../images/icons/service6.png";
+
+
 import business from "../images/website/business-website.png";
 import news from "../images/website/news-websites.png";
 import ecommerce from "../images/website/ecommerce-website.png";
 import education from "../images/website/education-website.jpg";
 import ngo from "../images/website/ngo-website.png";
 import personal from "../images/website/personal-website.png";
-
 import client1 from "../images/review/client1.png";
 import client2 from "../images/review/client2.png";
 import client3 from "../images/review/client3.png";
@@ -13,36 +20,42 @@ export const services = [
   {
     servicesId: 1,
     title: "Web Development",
+    img: service3,
     description:
       "We will create and development any kind of website. We design websites based on your preferences and needs.",
   },
   {
     servicesId: 2,
     title: "Software Development",
+    img: service2,
     description:
       "We will create and development any kind of website. We design websites based on your preferences and needs.",
   },
   {
     servicesId: 3,
     title: "Apps Development",
+    img: service1,
     description:
       "We will create and development any kind of website. We design websites based on your preferences and needs.",
   },
   {
     servicesId: 4,
     title: "WordPress Development",
+    img: service4,
     description:
       "We will create and development any kind of website. We design websites based on your preferences and needs.",
   },
   {
     servicesId: 5,
     title: "Virtual Assistant",
+    img: service5,
     description:
       "We will create and development any kind of website. We design websites based on your preferences and needs.",
   },
   {
     servicesId: 6,
     title: "Re-design Services",
+    img: service5,
     description:
       "We will create and development any kind of website. We design websites based on your preferences and needs.",
   },

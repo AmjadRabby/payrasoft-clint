@@ -8,7 +8,7 @@ const BestServices = () => {
     <div className="bg-light pt-5 pb-4 mb-5 mt-5">
       <Container className="best-services pt-2">
         <div className="row ">
-          <div className="col-md-6">
+          <div className="col-md-6 mb-5">
             <p className="text-secondary">WHY CHOOSE US</p>
             <h1 className="best-element brand-color-heading">
               BEST <br /> SERVICES <br /> IN OUR <br /> PLACE
@@ -26,7 +26,7 @@ const BestServices = () => {
                 engineers. Available for you via FQA & Ticket.
               </p>
             </div>
-            <div class="position-relative">
+            <div className="position-relative">
               <h5 className="brand-color-heading">
                 <FaStar className="service-star" />
                 100% Satisfaction Guarantee
@@ -37,7 +37,7 @@ const BestServices = () => {
                 problems.
               </p>
             </div>
-            <div class="position-relative">
+            <div className="position-relative">
               <h5 className="brand-color-heading">
                 {" "}
                 <FaStar className="service-star" />

@@ -9,15 +9,15 @@ const SendMassage = () => {
       <div className="brand-color-bg  p-4">
         <Container>
           <div className="row">
-            <div className="col-md-4 d-flex align-items-center justify-content-center">
+            <div className="col-md-4 col-md-4 col-sm-4 d-flex align-items-center justify-content-center">
               <FaComments className="comments-icon social-media" /> HAVE
               QUESTIONS? ASK A <br /> SPECIALIST
             </div>
-            <div className="col-md-4 d-flex align-items-center justify-content-center">
+            <div className="col-md-4 col-sm-4 d-flex align-items-center justify-content-center">
               <FaSmile className="smile-icon" />
               24/7 CALL US
             </div>
-            <div className="col-md-4 d-flex align-items-center justify-content-center">
+            <div className="col-md-4 col-md-4 col-sm-4 d-flex align-items-center justify-content-center">
               <FaPhoneAlt className="phone-icon" />
               01866776970
             </div>

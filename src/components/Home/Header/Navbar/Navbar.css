@@ -1,5 +1,4 @@
 .nav-container {
-  /* border-bottom: 1px solid transparent; */
   background-color: #141d38 !important;
   color: #b5b5b5;
   font-size: 14px;
@@ -12,8 +11,7 @@
 }
 
 .main_navbar {
-  position: absolute !important;
-  margin-left: 100px;
+  background-color: transparent !important;
 }
 
 .search-btn {
@@ -27,15 +25,14 @@
 .navbar-item {
   margin-right: 10px;
   font-weight: bold;
-
   letter-spacing: 1.2px;
   border-radius: 5px;
-  color: #fff;
+  color: #fff !important;
   background-size: 200% 100%;
   background-image: linear-gradient(
     to right,
     rgba(216, 201, 201, 0) 50%,
-    rgba(229, 229, 229) 50%
+    rgba(234, 93, 42, 0.527) 50%
   );
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -46,6 +43,34 @@
   background-position: -100% 0;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
   display: none;
 }
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
+}
+
+.dropbtn:hover .dropdown-content {
+  display: block;
+}
+
+.hover-btn {
+  display: block;
+}
+.navbar .nav-item .dropdown-menu {
+  display: none;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+.navbar .nav-item .dropdown-menu {
+  margin-top: 0;
+}
+.dropdown-menu {
+  background-color: RGBA(255, 255, 255, 0.75)!important;
+  border: none;
+}
+

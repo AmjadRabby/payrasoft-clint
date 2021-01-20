@@ -1,8 +1,9 @@
 .service-item {
-  width: 22rem;
-  height: 12rem;
+  /* width: 22rem; */
+  height: 17rem;
   border-radius: 20px;
 }
-.service-item:hover{
- 
+.service-item img {
+  width: 4rem;
 }
+

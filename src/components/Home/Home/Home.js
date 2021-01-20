@@ -2,6 +2,7 @@ import React from "react";
 import AboutCompany from "../AboutCompany/AboutCompany";
 import BestServices from "../BestServices/BestServices";
 import ClientReviews from "../ClientReviews/ClientReviews";
+import ContactCompany from "../ContactCompany/ContactCompany";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import MultiRowSlides from "../MultiRowSlides/MultiRowSlides";
@@ -20,6 +21,7 @@ const Home = () => {
       <OurSoftware />
       <BestServices />
       <MultiRowSlides />
+      <ContactCompany/>
       <ClientReviews />
       <SendMassage />
       <Footer />

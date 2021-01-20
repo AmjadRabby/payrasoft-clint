@@ -67,7 +67,7 @@ const MultiRowSlides = () => {
         <Row className="p-0">
           <Swiper
             responsive={responsive}
-            slidesPerView={8}
+            slidesPerView={6}
             navigation
             pagination={{
               clickable: true,
@@ -82,7 +82,7 @@ const MultiRowSlides = () => {
             {allCarousel.map((carousel, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <div class="card border-0 rounded  p-2 mx-2 shadow-sm mb-5">
+                  <div className="card border-0 rounded  p-2 mx-2 shadow-sm mb-5">
                     <div key={index + 100}>
                       <img className="carousel-image" src={carousel} alt="" />
                     </div>
