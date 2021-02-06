@@ -3,6 +3,7 @@ import Home from "./components/Home/Home/Home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Login from "./components/Login/Login";
 import { createContext, useState } from "react";
+import Navbar from "./components/Home/Header/Navbar2/Navbar";
 
 
 
@@ -30,19 +31,20 @@ function App() {
         verifyLink: [verifyMsg, setVerifyMsg],
       }}
     >
-        <Router>
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/home">
-              <Home />
-            </Route>
-            <Route path="/login">
-              <Login />{" "}
-            </Route>
-          </Switch>
-        </Router>
+      <Router>
+        {/* <Navbar /> */}
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/login">
+            <Login />{" "}
+          </Route>
+        </Switch>
+      </Router>
     </UserContext.Provider>
   );
 }

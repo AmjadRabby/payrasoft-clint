@@ -1,9 +1,24 @@
 .service-item {
-  /* width: 22rem; */
-  height: 17rem;
+  height: 20rem;
   border-radius: 20px;
+}
+.service-item h2 {
+  font-size: 100%;
 }
 .service-item img {
   width: 4rem;
 }
 
+@media (max-width: 768px) {
+  .service-item img {
+    width: 3rem;
+  }
+  .service-item h2,
+  p {
+    font-size: 100%;
+  }
+  .service-item {
+    height: 18rem;
+    border-radius: 20px;
+  }
+}

@@ -1,12 +1,12 @@
 import React from "react";
 import "./Header.css";
-import Nav from "./Navbar/Nav";
-import MainNavbar from "./Navbar/MainNav";
+// import Nav from "./Navbar/Nav";
+// import MainNavbar from "./Navbar/MainNav";
 import MainHeader from "./MainHeader";
 
 const Header = () => {
   return (
-    <div>
+    <div className="w-100 h-100">
       {/* <Nav /> */}
       {/* <MainNavbar /> */}
       <MainHeader />

@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect, createContext } from "react";
 import "./Login.css";
 import logo from "../../images/logo.png";
 import { Form, Button, Container, Col } from "react-bootstrap";
-import { FaSistrix, FaFacebook, FaGoogle } from "react-icons/fa";
+import { FaFacebook, FaGoogle } from "react-icons/fa";
 
 // import FacebookIcon from "@material-ui/icons/Facebook";
 // import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";

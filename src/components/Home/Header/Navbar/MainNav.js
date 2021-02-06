@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";
+// import "./Navbar.css";
 import logo from "../../../../images/logo.png";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { FaSistrix } from "react-icons/fa";
@@ -24,6 +24,7 @@ const MainNav = () => {
             <Nav.Link className="navbar-item" href="#home">
               Home
             </Nav.Link>
+           
 
             <li className="nav-item dropdown">
               {" "}
@@ -203,7 +204,8 @@ const MainNav = () => {
           </Nav>
           <Link
             to="/login"
-            className="font-weight-bold ml-5 btn brand-color-bg"
+            className="ml-5 btn brand-color-bg"
+            variant=" font-weight-bold"
           >
             Sign In
           </Link>

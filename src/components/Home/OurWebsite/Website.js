@@ -7,7 +7,7 @@ const Website = ({ website }) => {
       <div className="p-1">
         <h4 className="brand-color mb-4">{title}</h4>
         <div className="overflow-hidden website-img mb-4">
-          <img src={img} alt="" className="img-fluid global-item" />
+          <img src={img} alt="" className="img-fluid global-item-img" />
         </div>
 
         <button className="btn brand-color-bg px-4">View Demo</button>

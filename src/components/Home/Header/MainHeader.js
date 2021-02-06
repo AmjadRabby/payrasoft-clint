@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import headerBaner from "../../../images/banner_image.png";
 import MainNav from "./Navbar/MainNav";
+import Navbar from "./Navbar2/Navbar";
 
 const MainHeader = () => {
   return (
-    <div className="main-header pt-2 pb-5">
-      <MainNav/>
-      <Container className="mt-5">
+    <div className="main-header">
+      {/* <MainNav/> */}
+      <Navbar />
+      <Container className="mt-5 ">
         <Row>
           <div className="col-md-6">
             <div className="header-container  header-main-text">
