@@ -20,19 +20,19 @@
 .dropdown-menu-item {
   width: 50%;
   position: absolute;
-  top: 70px;
+  top: 75px;
   right: 100px;
   list-style: none;
   text-align: start;
-  background-color: rgba(28, 27, 27, 0.452);
+  background-color: rgba(28, 27, 27, 0.63);
   margin: 5px;
   border-radius: 10px;
 }
 
 .dropdown-menu-item li:hover {
-  background: rgba(128, 128, 128, 0.555);
+  /* background: rgba(128, 128, 128, 0.884);
   border-radius: 10px;
-  transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; */
 }
 .dropdown-menu-item.clicked {
   display: none;
@@ -60,7 +60,7 @@
   z-index: 999;
 }
 .navbar-container.scroll-nav {
-  background: rgba(255, 255, 255, 0.918);
+  background: rgba(255, 255, 255, 0.825);
 }
 
 .scroll-color {
@@ -154,7 +154,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #242222ec;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -169,8 +169,7 @@
   }
 
   .scroll-color {
-    color: rgba(255, 255, 255, 0.788) !important;
-    background-color: transparent;
+    color: rgba(255, 255, 255, 0.788)!important;
   }
 
   .navbar-logo {
