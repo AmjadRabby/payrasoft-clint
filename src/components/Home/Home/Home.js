@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 import AboutCompany from "../AboutCompany/AboutCompany";
 import BestServices from "../BestServices/BestServices";
 import ClientReviews from "../ClientReviews/ClientReviews";
@@ -10,6 +11,7 @@ import OurServices from "../OurServices/OurServices";
 import OurSoftware from "../OurSoftware/OurSoftware";
 import OurWebsite from "../OurWebsite/OurWebsite";
 import SendMassage from "../SendMassage/SendMassage";
+import ScrollToTopBtn from "./ScrollToTop";
 
 const Home = () => {
   return (
@@ -21,10 +23,11 @@ const Home = () => {
       <OurSoftware />
       <BestServices />
       <MultiRowSlides />
-      <ContactCompany/>
+      <ContactCompany />
       <ClientReviews />
       <SendMassage />
       <Footer />
+      <ScrollToTopBtn />
     </div>
   );
 };

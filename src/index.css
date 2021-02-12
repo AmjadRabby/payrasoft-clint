@@ -8,6 +8,10 @@
   /* overflow-y: hidden; */
   /* overflow-x: hidden; */
 }
+body {
+  overflow-x: hidden;
+  /* overflow-y: ; */
+}
 
 html {
   scroll-behavior: smooth;

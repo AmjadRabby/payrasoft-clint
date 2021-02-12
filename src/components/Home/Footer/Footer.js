@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </Container>
       <div className="row bg-light p-5">
-        <div className="col-md-5">
+        <div className="col-5 col-sm-4">
           <img src={logo} alt="" className="img-fluid footer-logo" />
           <div className="mt-3 text-center text-muted">
             <a href="#" className="facebook-icon">
@@ -62,14 +62,14 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="col-md-3 col-sm-5 mt-5 ml-5 position-relative ">
+        <div className="col-md-3 col-sm-3 ml-5 position-relative ">
           <FaHeadset className="headset-icon brand-color " />
           <h5 className="text-dark">24/7 Support</h5>
           <p className="text-secondary">01866776970</p>
           <p className="text-secondary">hello@payrasoft.com</p>
           <p className="text-secondary">www.payrasoft.com</p>
         </div>
-        <div className="col-md-3 col-sm-4 mt-5 ml-5 position-relative">
+        <div className="col-md-3 col-sm-3 ml-5 position-relative">
           <FaLocationArrow className="headset-icon brand-color " />
           <h5 className="text-dark">Our Office:</h5>
           <p className="text-secondary">

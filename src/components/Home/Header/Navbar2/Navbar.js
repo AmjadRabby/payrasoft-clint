@@ -65,34 +65,50 @@ const Navbar = () => {
     <>
       <nav
         className={
-          navScroll ? "navbar-container scroll-nav" : "navbar-container"
+          navScroll ? "navbar-container scroll-nav shadow" : "navbar-container"
         }
       >
         {/* <Container> */}
         <Link to="/" className="navbar-logo">
-          <img src={logo} alt="" className="company-logo" />
+          <img src={logo} alt="" className="company-logo img-fluid" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           {click ? (
-            <FaTimes className="times-icon" />
+            <FaTimes
+              className={
+                navScroll ? "times-icon scroll-color-icon" : "times-icon"
+              }
+            />
           ) : (
-            <FaBars className="bars-icon" />
+            <FaBars
+              className={
+                navScroll ? "bars-icon scroll-color-icon" : "bars-icon"
+              }
+            />
           )}
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-items">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+          <li className="nav-items nav-bottom-border">
+            <Link
+              to="/"
+              className={
+                navScroll
+                  ? "nav-links scroll-color scroll-bg-color"
+                  : "nav-links"
+              }
+              onClick={closeMobileMenu}
+            >
               Home
             </Link>
           </li>
           <li
-            className="nav-items"
+            className="nav-items nav-bottom-border"
             onMouseEnter={() => onMouseEnter("service")}
             onMouseLeave={() => onMouseLeave("service")}
           >
             <Link
               // to="/services"
-              className="nav-links"
+              className={navScroll ? "nav-links scroll-color" : "nav-links"}
               onClick={closeMobileMenu}
             >
               Services <FaCaretDown />
@@ -100,13 +116,13 @@ const Navbar = () => {
             {service && <DropdownMenu />}
           </li>
           <li
-            className="nav-items"
+            className="nav-items nav-bottom-border"
             onMouseEnter={() => onMouseEnter("demo")}
             onMouseLeave={() => onMouseLeave("demo")}
           >
             <Link
               // to="/services"
-              className="nav-links"
+              className={navScroll ? "nav-links scroll-color" : "nav-links"}
               onClick={closeMobileMenu}
             >
               Demo <FaCaretDown />
@@ -114,13 +130,13 @@ const Navbar = () => {
             {demo && <DemoMenu />}
           </li>
           <li
-            className="nav-items"
+            className="nav-items nav-bottom-border"
             onMouseEnter={() => onMouseEnter("company")}
             onMouseLeave={() => onMouseLeave("company")}
           >
             <Link
               // to="/services"
-              className="nav-links"
+              className={navScroll ? "nav-links scroll-color" : "nav-links"}
               onClick={closeMobileMenu}
             >
               Company <FaCaretDown />
@@ -128,28 +144,28 @@ const Navbar = () => {
             {company && <CompanyMenu />}
           </li>
 
-          <li className="nav-items">
+          <li className="nav-items nav-bottom-border">
             <Link
               to="/contact-us"
-              className="nav-links"
+              className={navScroll ? "nav-links scroll-color" : "nav-links"}
               onClick={closeMobileMenu}
             >
               Blog
             </Link>
           </li>
-          <li className="nav-items">
+          <li className="nav-items nav-bottom-border">
             <Link
               to="/contact-us"
-              className="nav-links"
+              className={navScroll ? "nav-links scroll-color" : "nav-links"}
               onClick={closeMobileMenu}
             >
               Contact
             </Link>
           </li>
-          <li className="nav-items">
+          <li className="nav-items ml-2 mr-3">
             <Link
               to="/contact-us"
-              className="nav-links"
+              className={navScroll ? "nav-links scroll-color" : "nav-links"}
               onClick={closeMobileMenu}
             >
               <FaSearch />
@@ -189,16 +205,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-const Extra = () => {
-  return (
-    <div style={{ marginTop: "200px" }} className="position-absolute">
-      <h1>amjad</h1>
-      <div className="row">
-        <div className="col-md-4">amjad</div>
-        <div className="col-md-4">amjad</div>
-        <div className="col-md-4">amjad</div>
-      </div>
-    </div>
-  );
-};
